@@ -1,0 +1,70 @@
+body, html {
+  width: 100%;
+  height: 100vh;
+  font-family: 'Lato',sans-serif;
+  background: linear-gradient(rgba(65, 65, 65, 0.502),rgba(0,0,0,0.2)), url('https://images.unsplash.com/photo-1484320775925-2609d111d8b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80')no-repeat center center fixed;
+  -webkit-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #7af6ff;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+
+.btn {
+  font-weight: 700;
+  border: 25px;
+  font-size: 1.3rem;
+  word-spacing: 4px;
+  letter-spacing: 2px;
+  transition: all .5s ease-in;
+}
+
+.btn-primary {
+  background-color: #ffffff4d;
+  color: #7af6ff;
+  border: none;
+}
+
+.btn:hover {
+  background: #7af6ff5e;
+  transform: translateY(9px);
+  border-radius: 50px;
+  color: #fff34d;
+}
+
+.btn-xl {
+  padding: .5rem 1.2rem;
+}
+
+hr {
+  margin: 30px auto;
+  color: #7af6ff;
+  border: 1px solid #7af6ff;
+  max-width: 70%;
+  opacity: 1;  
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+  } 
+  .btn {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 1.8rem;
+  } 
+  .btn {
+    font-size: 1rem;
+  }
+}
